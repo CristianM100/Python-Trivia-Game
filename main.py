@@ -1,7 +1,7 @@
-from PyQt6.QtWidgets import QApplication, QWidget
-
 # Only needed for access to command line arguments
 import sys
+
+from PyQt6.QtWidgets import QApplication, QWidget
 
 # You need one (and only one) QApplication instance per application.
 # Pass in sys.argv to allow command line arguments for your app.
@@ -10,6 +10,12 @@ app = QApplication(sys.argv)
 
 # Create a Qt widget, which will be our window.
 window = QWidget()
+
+window.setWindowTitle("Python Trivia Game")
+window.setFixedWidth(1000)
+window.setFixedHeight(800)
+window.setStyleSheet("background: #004C00")
+
 window.show()  # IMPORTANT!!!!! Windows are hidden by default.
 
 # Start the event loop.
