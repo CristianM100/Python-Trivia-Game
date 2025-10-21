@@ -14,7 +14,7 @@ window = QWidget()
 window.setWindowTitle("Python Trivia Game")
 window.setFixedWidth(1000)
 window.setFixedHeight(800)
-window.setStyleSheet("background: #004C00")
+window.setStyleSheet("background: #004c00")
 
 window.show()  # IMPORTANT!!!!! Windows are hidden by default.
 
