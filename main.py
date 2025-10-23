@@ -2,7 +2,7 @@
 import sys
 
 from PyQt6.QtWidgets import QApplication, QWidget
-
+from pages import frame1, grid
 # You need one (and only one) QApplication instance per application.
 # Pass in sys.argv to allow command line arguments for your app.
 # If you know you won't use command line arguments QApplication([]) works too.
@@ -16,6 +16,9 @@ window.setFixedWidth(1000)
 window.setFixedHeight(800)
 window.setStyleSheet("background: #004c00")
 
+frame1()
+
+window.setLayout(grid)
 window.show()  # IMPORTANT!!!!! Windows are hidden by default.
 
 # Start the event loop.
