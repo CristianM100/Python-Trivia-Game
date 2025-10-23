@@ -57,7 +57,7 @@ def create_buttons(answer, l_margin, r_margin):
 
 def frame1():
     clear_widgets()
-    button = QPushButton("PLAY NOW")
+    button = QPushButton("PLAY NOW!")
     button.setCursor(QCursor(QtCore.Qt.CursorShape.PointingHandCursor))
     button.setStyleSheet(
          '''
