@@ -73,6 +73,7 @@ def frame1():
 
     button = QPushButton("PLAY NOW!")
     button.setCursor(QCursor(QtCore.Qt.CursorShape.PointingHandCursor))
+    button.clicked.connect(frame2)  
     button.setStyleSheet(
          '''
         *{
