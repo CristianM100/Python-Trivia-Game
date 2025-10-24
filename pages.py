@@ -10,12 +10,13 @@ import random
 
 
 widgets = { 
-    "button": []
+    "button": [],
+    "logo1": []
 }
 
 grid = QGridLayout()    # initialize grid layout
 
-# hide existing widgets and remove them
+# hide existing widgets and remove them from the dictionary
 def clear_widgets():
     for widget in widgets:
         if widgets[widget] != []:
@@ -53,10 +54,18 @@ def create_buttons(answer, l_margin, r_margin):
     
 
 
-#   FRAME 1  
+#   FRAME 1 or WINDOW 1
 
 def frame1():
     clear_widgets()
+
+    image = QPixmap("logo1.png")
+    logo = QLabel()
+    logo.setPixmap(image)
+    logo.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+   # logo.setStyleSheet("margin-top: 100px;")
+    widgets["logo1"].append(logo)
+
     button = QPushButton("PLAY NOW!")
     button.setCursor(QCursor(QtCore.Qt.CursorShape.PointingHandCursor))
     button.setStyleSheet(
@@ -77,3 +86,4 @@ def frame1():
     widgets["button"].append(button)
 
     grid.addWidget(widgets["button"][-1], 3, 0, 1, 2)
+    grid.addWidget(widgets["logo1"][-1], 0, 0, 1, 2)
