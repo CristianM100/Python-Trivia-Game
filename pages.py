@@ -16,6 +16,11 @@ widgets = {
 
 grid = QGridLayout()    # initialize grid layout
 
+def start_game():
+    clear_widgets()
+    
+    frame2()
+
 # hide existing widgets and remove them from the dictionary
 def clear_widgets():
     for widget in widgets:
