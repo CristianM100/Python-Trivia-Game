@@ -87,3 +87,70 @@ def frame1():
 
     grid.addWidget(widgets["button"][-1], 3, 0, 1, 2)
     grid.addWidget(widgets["logo1"][-1], 0, 0, 1, 2)
+
+#----------------------------------------------------------------
+
+
+def frame2(): #second page
+    clear_widgets()
+
+    title = QLabel("Choose Topic")
+    title.setStyleSheet('''
+        color: white;
+        font-family: "Arial";
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    ''')
+    title.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeft)
+    widgets["title"] = [title]
+    grid.addWidget(title, 0, 0, 1, 2)
+
+    score_label = QLabel("Score: 0")
+    score_label.setStyleSheet('''
+        color: white;
+        font-family: "Arial";
+        font-size: 18px;
+        font-weight: bold;
+    ''')
+    score_label.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight)
+    widgets["score"] = [score_label]
+    grid.addWidget(score_label, 0, 1, 1, 1)
+
+
+    topics = ["Python Basics", "Flow Control", "Lists", "String Manipulation"]
+    for i, topic in enumerate(topics):
+        button = QPushButton(topic)
+        button.setFixedHeight(60)
+        button.setCursor(QCursor(QtCore.Qt.CursorShape.PointingHandCursor))
+        button.setStyleSheet("""
+            QPushButton {
+                background-color: #00A86B;
+                color: white;
+                border-radius: 15px;
+                font-size: 18px;
+                text-align: left;
+                padding-left: 15px;
+            }
+            QPushButton:hover {
+                background-color: #00C080;
+            }
+        """)
+
+        if topic != "Python Basics":
+            button.setEnabled(False)
+            button.setStyleSheet("""
+                QPushButton {
+                    background-color: #007A5A;
+                    color: #aaaaaa;
+                    border-radius: 15px;
+                    font-size: 18px;
+                    text-align: left;
+                    padding-left: 15px;
+                }
+            """)
+            button.setText("🔒 " + topic)  
+
+        grid.addWidget(button, i + 2, 0, 1, 2)
+                       
+        grid.setRowStretch(len(topics) + 3, 2)
