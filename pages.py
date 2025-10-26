@@ -16,10 +16,6 @@ widgets = {
 
 grid = QGridLayout()    # initialize grid layout
 
-def start_game():
-    clear_widgets()
-    
-    frame2()
 
 # hide existing widgets and remove them from the dictionary
 def clear_widgets():
@@ -77,7 +73,7 @@ def frame1():
     button.setStyleSheet(
          '''
         *{
-            border: 4px solid '#262124';
+            border: 2px solid '#262124';
             border-radius: 40px;
             font-size: 30px;
             color: 'white';
@@ -124,7 +120,10 @@ def frame2(): #second page
     grid.addWidget(score_label, 0, 1, 1, 1)
 
 
-    topics = ["Python Basics", "Flow Control", "Lists", "String Manipulation"]
+    #topics = ["Python Basics", "Flow Control", "Lists", "String Manipulation"]
+    topics = ["Fundamentals", "Control Structures", "Data Structures", "Functions & Scope", "OOP", "Error & Exception Handling", "File Handling", "Advanced Topics"]
+    
+    
     for i, topic in enumerate(topics):
         button = QPushButton(topic)
         button.setFixedHeight(60)
@@ -160,3 +159,19 @@ def frame2(): #second page
         grid.addWidget(button, i + 2, 0, 1, 2)
                        
         grid.setRowStretch(len(topics) + 3, 2)
+
+def frame3():
+    clear_widgets()
+
+    title = QLabel("Question in ")
+    title.setStyleSheet('''
+        color: white;
+        font-family: "Arial";
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    ''')
+    title.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeft)
+    widgets["title"] = [title]
+    grid.addWidget(title, 0, 0, 1, 2)
+
