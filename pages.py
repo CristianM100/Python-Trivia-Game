@@ -59,13 +59,19 @@ def create_buttons(answer, l_margin, r_margin):
 
 def frame1():
     clear_widgets()
-
+    """"
     image = QPixmap("logo1.png")
     logo = QLabel()
     logo.setPixmap(image)
     logo.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
    # logo.setStyleSheet("margin-top: 100px;")
     widgets["logo1"].append(logo)
+    """"
+    background = QLabel()
+    background.setPixmap(QPixmap("logo2.png"))
+    background.setScaledContents(True)  # Makes image fill the whole window
+    widgets["background"] = [background]
+    grid.addWidget(background, 0, 0, 5, 5) 
 
     button = QPushButton("PLAY NOW!")
     button.setCursor(QCursor(QtCore.Qt.CursorShape.PointingHandCursor))
@@ -76,19 +82,20 @@ def frame1():
             border: 2px solid '#262124';
             border-radius: 40px;
             font-size: 30px;
-            color: 'white';
-            padding: 25px 0;
-            margin: 100px 200px;
+            color: white;
+            padding: 25px 60px;
+            background-color: rgba(0, 0, 0, 80);
         }
         *:hover{
-            background: '#383537';
+            background-color: rgba(56, 53, 55, 180)
         }
         '''
     )
     widgets["button"].append(button)
 
-    grid.addWidget(widgets["button"][-1], 3, 0, 1, 2)
-    grid.addWidget(widgets["logo1"][-1], 0, 0, 1, 2)
+    #grid.addWidget(widgets["button"][-1], 3, 0, 1, 2) changed to the one below
+    grid.addWidget(button, 4, 2, 1, 1, QtCore.Qt.AlignmentFlag.AlignCenter)
+    #grid.addWidget(widgets["logo1"][-1], 0, 0, 1, 2) not needed since the image is no longer just a widget
 
 #----------------------------------------------------------------
 
@@ -96,6 +103,12 @@ def frame1():
 def frame2(): #second page
     clear_widgets()
 
+    window = grid.parentWidget()
+    window.resize(1000, 700)
+
+    grid.setColumnStretch(0,1)
+    grid.setRowStretch(1,1)
+    
     title = QLabel("Choose Topic")
     title.setStyleSheet('''
         color: white;
@@ -106,7 +119,7 @@ def frame2(): #second page
     ''')
     title.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeft)
     widgets["title"] = [title]
-    grid.addWidget(title, 0, 0, 1, 2)
+    grid.addWidget(title, 1, 0, 1, 2)
 
     score_label = QLabel("Score: 0")
     score_label.setStyleSheet('''
@@ -117,7 +130,7 @@ def frame2(): #second page
     ''')
     score_label.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight)
     widgets["score"] = [score_label]
-    grid.addWidget(score_label, 0, 1, 1, 1)
+    grid.addWidget(score_label, 1, 1, 1, 1)
 
 
     #topics = ["Python Basics", "Flow Control", "Lists", "String Manipulation"]
@@ -130,7 +143,7 @@ def frame2(): #second page
         button.setCursor(QCursor(QtCore.Qt.CursorShape.PointingHandCursor))
         button.setStyleSheet("""
             QPushButton {
-                background-color: #00A86B;
+                background-color: #4fa3d1;
                 color: white;
                 border-radius: 15px;
                 font-size: 18px;
@@ -138,7 +151,7 @@ def frame2(): #second page
                 padding-left: 15px;
             }
             QPushButton:hover {
-                background-color: #00C080;
+                background-color: #6fb7e2;
             }
         """)
 
@@ -146,7 +159,7 @@ def frame2(): #second page
             button.setEnabled(False)
             button.setStyleSheet("""
                 QPushButton {
-                    background-color: #007A5A;
+                    background-color: #2e5a77;
                     color: #aaaaaa;
                     border-radius: 15px;
                     font-size: 18px;
@@ -156,9 +169,9 @@ def frame2(): #second page
             """)
             button.setText("🔒 " + topic)  
 
-        grid.addWidget(button, i + 2, 0, 1, 2)
+        grid.addWidget(button, i + 3, 0, 1, 2)
                        
-        grid.setRowStretch(len(topics) + 3, 2)
+        grid.setRowStretch(len(topics) + 5, 2)
 
 def frame3():
     clear_widgets()
