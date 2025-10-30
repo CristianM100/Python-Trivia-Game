@@ -12,7 +12,7 @@ app = QApplication(sys.argv)
 window = QWidget()
 
 window.setWindowTitle("Python Trivia Game")
-window.setFixedWidth(1000)
+#window.setFixedWidth(1000)
 #window.setFixedHeight(1000)
 window.setStyleSheet("background: #397591")
 
