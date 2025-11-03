@@ -1,0 +1,139 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Fundamentals",
+      "question": "When was Python first released?",
+      "correct_answer": "1991",
+      "incorrect_answers": [
+        "1989",
+        "1995",
+        "2000"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Fundamentals",
+      "question": "What is the correct extension for Python files?",
+      "correct_answer": ".py",
+      "incorrect_answers": [
+        ".pyt",
+        ".pt",
+        ".python"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Fundamentals",
+      "question": "How do you take user input in Python? ",
+      "correct_answer": "input()",
+      "incorrect_answers": [
+        "raw_input()",
+        "read()",
+        "scan()"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Fundamentals",
+      "question": "Which function converts a string to an integer?",
+      "correct_answer": "int()",
+      "incorrect_answers": [
+        "str()",
+        "eval()",
+        "float()"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Fundamentals",
+      "question": "What function is used to display output in Python?",
+      "correct_answer": "print()",
+      "incorrect_answers": [
+        "display()",
+        "output()",
+        "show()"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Fundamentals",
+      "question": "What is the correct way to create a variable in Python?",
+      "correct_answer": " x = 5",
+      "incorrect_answers": [
+        "int x = 5",
+        "var x = 5",
+        "x := 5"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Fundamentals",
+      "question": "Which data type is immutable in Python?",
+      "correct_answer": "tuple",
+      "incorrect_answers": [
+        "list",
+        "dict",
+        "set"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Fundamentals",
+      "question": "How do you start a single-line comment in Python?",
+      "correct_answer": "#",
+      "incorrect_answers": [
+        "//",
+        "/*",
+        "--"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Fundamentals",
+      "question": "Which of these is NOT a valid Python data type?",
+      "correct_answer": "char",
+      "incorrect_answers": [
+        "int",
+        "float",
+        "bool"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Fundamentals",
+      "question": "What does the len() function return?",
+      "correct_answer": "The length of an object",
+      "incorrect_answers": [
+        "The last element",
+        "A new copy",
+        "The type of object"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Control Structures",
+      "question": "Originally used in PCM adapters, what frequency is the standard for sampling audio in the Compact Disc Digital Audio format?",
+      "correct_answer": "44.1 kHz",
+      "incorrect_answers": [
+        "32.0 kHz",
+        "1.5 MHz",
+        "20.5 kHz"
+      ]
+    }
+    
+    
+  ]
+}
