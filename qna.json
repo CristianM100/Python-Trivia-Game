@@ -1,0 +1,105 @@
+{
+    "Fundamentals": [
+        {"question": "What is a variable?", "answers": ["variable", "nope", "yup", "not this"], "correct": "variable"},
+        {"question": "What is a data type?", "answers": ["A", "B", "C", "D"], "correct": "B"},
+        {"question": "Which operator is used for addition?", "answers": ["+", "-", "*", "/"], "correct": "+"},
+        {"question": "What is an integer?", "answers": ["A", "B", "C", "D"], "correct": "C"},
+        {"question": "Which is a floating-point number?", "answers": ["A", "B", "C", "D"], "correct": "D"},
+        {"question": "What is a constant?", "answers": ["A", "B", "C", "D"], "correct": "A"},
+        {"question": "Which is mutable?", "answers": ["A", "B", "C", "D"], "correct": "B"},
+        {"question": "What does += do?", "answers": ["A", "B", "C", "D"], "correct": "C"},
+        {"question": "What is a string?", "answers": ["A", "B", "C", "D"], "correct": "D"},
+        {"question": "What is a boolean?", "answers": ["A", "B", "C", "D"], "correct": "A"}
+    ],
+
+    "Control Structures": [
+        {"question": "What?", "answers": ["A", "B", "C", "not this"], "correct": "A"},
+        {"question": "What is?", "answers": ["A", "B", "C", "D"], "correct": "B"},
+        {"question": "Which?", "answers": ["+", "-", "*", "/"], "correct": "+"},
+        {"question": "What is an?", "answers": ["A", "B", "C", "D"], "correct": "C"},
+        {"question": "Which is?", "answers": ["A", "B", "C", "D"], "correct": "D"},
+        {"question": "What is a constant?", "answers": ["A", "B", "C", "D"], "correct": "A"},
+        {"question": "How is mutable?", "answers": ["A", "B", "C", "D"], "correct": "B"},
+        {"question": "Where does += do?", "answers": ["A", "B", "C", "D"], "correct": "C"},
+        {"question": "When is a string?", "answers": ["A", "B", "C", "D"], "correct": "D"},
+        {"question": "Why is a boolean?", "answers": ["A", "B", "C", "D"], "correct": "A"}
+    ],
+
+    "Data Structures": [
+        {"question": "What is a variable?", "answers": ["variable", "nope", "yup", "not this"], "correct": "variable"},
+        {"question": "What is a data type?", "answers": ["A", "B", "C", "D"], "correct": "B"},
+        {"question": "Which operator is used for addition?", "answers": ["+", "-", "*", "/"], "correct": "+"},
+        {"question": "What is an integer?", "answers": ["A", "B", "C", "D"], "correct": "C"},
+        {"question": "Which is a floating-point number?", "answers": ["A", "B", "C", "D"], "correct": "D"},
+        {"question": "What is a constant?", "answers": ["A", "B", "C", "D"], "correct": "A"},
+        {"question": "Which is mutable?", "answers": ["A", "B", "C", "D"], "correct": "B"},
+        {"question": "What does += do?", "answers": ["A", "B", "C", "D"], "correct": "C"},
+        {"question": "What is a string?", "answers": ["A", "B", "C", "D"], "correct": "D"},
+        {"question": "What is a boolean?", "answers": ["A", "B", "C", "D"], "correct": "A"}
+    ],
+
+    "Functions & Scope": [
+        {"question": "What?", "answers": ["A", "B", "C", "not this"], "correct": "A"},
+        {"question": "What is?", "answers": ["A", "B", "C", "D"], "correct": "B"},
+        {"question": "Which?", "answers": ["+", "-", "*", "/"], "correct": "+"},
+        {"question": "What is an?", "answers": ["A", "B", "C", "D"], "correct": "C"},
+        {"question": "Which is?", "answers": ["A", "B", "C", "D"], "correct": "D"},
+        {"question": "What is a constant?", "answers": ["A", "B", "C", "D"], "correct": "A"},
+        {"question": "How is mutable?", "answers": ["A", "B", "C", "D"], "correct": "B"},
+        {"question": "Where does += do?", "answers": ["A", "B", "C", "D"], "correct": "C"},
+        {"question": "When is a string?", "answers": ["A", "B", "C", "D"], "correct": "D"},
+        {"question": "Why is a boolean?", "answers": ["A", "B", "C", "D"], "correct": "A"}
+    ],
+
+    "OOP": [
+        {"question": "What is a variable?", "answers": ["variable", "nope", "yup", "not this"], "correct": "variable"},
+        {"question": "What is a data type?", "answers": ["A", "B", "C", "D"], "correct": "B"},
+        {"question": "Which operator is used for addition?", "answers": ["+", "-", "*", "/"], "correct": "+"},
+        {"question": "What is an integer?", "answers": ["A", "B", "C", "D"], "correct": "C"},
+        {"question": "Which is a floating-point number?", "answers": ["A", "B", "C", "D"], "correct": "D"},
+        {"question": "What is a constant?", "answers": ["A", "B", "C", "D"], "correct": "A"},
+        {"question": "Which is mutable?", "answers": ["A", "B", "C", "D"], "correct": "B"},
+        {"question": "What does += do?", "answers": ["A", "B", "C", "D"], "correct": "C"},
+        {"question": "What is a string?", "answers": ["A", "B", "C", "D"], "correct": "D"},
+        {"question": "What is a boolean?", "answers": ["A", "B", "C", "D"], "correct": "A"}
+    ],
+
+    "Error & Exception Handeling": [
+        {"question": "What?", "answers": ["A", "B", "C", "not this"], "correct": "A"},
+        {"question": "What is?", "answers": ["A", "B", "C", "D"], "correct": "B"},
+        {"question": "Which?", "answers": ["+", "-", "*", "/"], "correct": "+"},
+        {"question": "What is an?", "answers": ["A", "B", "C", "D"], "correct": "C"},
+        {"question": "Which is?", "answers": ["A", "B", "C", "D"], "correct": "D"},
+        {"question": "What is a constant?", "answers": ["A", "B", "C", "D"], "correct": "A"},
+        {"question": "How is mutable?", "answers": ["A", "B", "C", "D"], "correct": "B"},
+        {"question": "Where does += do?", "answers": ["A", "B", "C", "D"], "correct": "C"},
+        {"question": "When is a string?", "answers": ["A", "B", "C", "D"], "correct": "D"},
+        {"question": "Why is a boolean?", "answers": ["A", "B", "C", "D"], "correct": "A"}
+    ],
+
+    "File Handling": [
+        {"question": "What is a variable?", "answers": ["variable", "nope", "yup", "not this"], "correct": "variable"},
+        {"question": "What is a data type?", "answers": ["A", "B", "C", "D"], "correct": "B"},
+        {"question": "Which operator is used for addition?", "answers": ["+", "-", "*", "/"], "correct": "+"},
+        {"question": "What is an integer?", "answers": ["A", "B", "C", "D"], "correct": "C"},
+        {"question": "Which is a floating-point number?", "answers": ["A", "B", "C", "D"], "correct": "D"},
+        {"question": "What is a constant?", "answers": ["A", "B", "C", "D"], "correct": "A"},
+        {"question": "Which is mutable?", "answers": ["A", "B", "C", "D"], "correct": "B"},
+        {"question": "What does += do?", "answers": ["A", "B", "C", "D"], "correct": "C"},
+        {"question": "What is a string?", "answers": ["A", "B", "C", "D"], "correct": "D"},
+        {"question": "What is a boolean?", "answers": ["A", "B", "C", "D"], "correct": "A"}
+    ],
+
+    "Advanced Topics": [
+        {"question": "What?", "answers": ["A", "B", "C", "not this"], "correct": "variable"},
+        {"question": "What is?", "answers": ["A", "B", "C", "D"], "correct": "B"},
+        {"question": "Which?", "answers": ["+", "-", "*", "/"], "correct": "+"},
+        {"question": "What is an?", "answers": ["A", "B", "C", "D"], "correct": "C"},
+        {"question": "Which is?", "answers": ["A", "B", "C", "D"], "correct": "D"},
+        {"question": "What is a constant?", "answers": ["A", "B", "C", "D"], "correct": "A"},
+        {"question": "How is mutable?", "answers": ["A", "B", "C", "D"], "correct": "B"},
+        {"question": "Where does += do?", "answers": ["A", "B", "C", "D"], "correct": "C"},
+        {"question": "When is a string?", "answers": ["A", "B", "C", "D"], "correct": "D"},
+        {"question": "Why is a boolean?", "answers": ["A", "B", "C", "D"], "correct": "A"}
+    ]
+}
