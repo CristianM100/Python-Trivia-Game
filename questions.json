@@ -123,17 +123,123 @@
     },
     {
       "type": "multiple",
-      "difficulty": "medium",
+      "difficulty": "easy",
       "category": "Control Structures",
-      "question": "Originally used in PCM adapters, what frequency is the standard for sampling audio in the Compact Disc Digital Audio format?",
-      "correct_answer": "44.1 kHz",
+      "question": "Which keyword is used to create a loop in Python?",
+      "correct_answer": "for",
       "incorrect_answers": [
-        "32.0 kHz",
-        "1.5 MHz",
-        "20.5 kHz"
+        "repeat",
+        "iterate",
+        "loop"
       ]
-    }
-    
-    
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Control Structures",
+      "question": "What does the break statement do in a loop?",
+      "correct_answer": "Ends the loop",
+      "incorrect_answers": [
+        "Skips the current iteration",
+        "Restarts the loop",
+        "Causes an error"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Control Structures",
+      "question": "A while loop runs until:",
+      "correct_answer": "The condition is False",
+      "incorrect_answers": [
+        "The condition is True",
+        "A counter reaches 0",
+        "Forever"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Control Structures",
+      "question": "Which keyword is used for a conditional statement?",
+      "correct_answer": "if",
+      "incorrect_answers": [
+        "switch",
+        "case",
+        "choose"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Control Structures",
+      "question": "What happens if an if condition is False?",
+      "correct_answer": "The block is skipped",
+      "incorrect_answers": [
+        "Causes an error",
+        "The program restarts",
+        "Executes anyway"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Control Structures",
+      "question": "Which of the following operators is used for equality comparison in Python?",
+      "correct_answer": "==",
+      "incorrect_answers": [
+        "=",
+        "==",
+        ">"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Control Structures",
+      "question": "What is the purpose of the elif statement in Python?",
+      "correct_answer": "To check additional conditions after the initial if statement",
+      "incorrect_answers": [
+        "To handle exceptions",
+        "To create a loop",
+        "To define a function"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Control Structures",
+      "question": "In Python, what is the purpose of the try-except block?",
+      "correct_answer": "To handle exceptions",
+      "incorrect_answers": [
+        "To define a function",
+        "To check multiple conditions",
+        "To create a loop"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Control Structures",
+      "question": "What is the output of: for i in range(2, 8, 2): print(i)",
+      "correct_answer": "2 4 6",
+      "incorrect_answers": [
+        "2 4 6 8",
+        "0 2 4 6",
+        "2 3 4 5 6 7 8"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Control Structures",
+      "question": "How do you iterate through two lists simultaneously?",
+      "correct_answer": "for i, j in zip(list1, list2): ",
+      "incorrect_answers": [
+        "for i in list1 and list2:",
+        "for i in list1, list2:",
+        "for (i, j) in list1, list2:"
+      ]
+    },
   ]
 }
