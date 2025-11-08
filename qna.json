@@ -1,105 +1,105 @@
 {
     "Fundamentals": [
-        {"question": "What is a variable?", "answers": ["variable", "nope", "yup", "not this"], "correct": "variable"},
-        {"question": "What is a data type?", "answers": ["A", "B", "C", "D"], "correct": "B"},
-        {"question": "Which operator is used for addition?", "answers": ["+", "-", "*", "/"], "correct": "+"},
-        {"question": "What is an integer?", "answers": ["A", "B", "C", "D"], "correct": "C"},
-        {"question": "Which is a floating-point number?", "answers": ["A", "B", "C", "D"], "correct": "D"},
-        {"question": "What is a constant?", "answers": ["A", "B", "C", "D"], "correct": "A"},
-        {"question": "Which is mutable?", "answers": ["A", "B", "C", "D"], "correct": "B"},
-        {"question": "What does += do?", "answers": ["A", "B", "C", "D"], "correct": "C"},
-        {"question": "What is a string?", "answers": ["A", "B", "C", "D"], "correct": "D"},
-        {"question": "What is a boolean?", "answers": ["A", "B", "C", "D"], "correct": "A"}
+        {"question": "When was Python first released?", "answers": ["1991", "1989", "1995", "2000"], "correct": "1991"},
+        {"question": "What is the correct extension for Python files?", "answers": [".pyt", ".py", ".pt", ".python"], "correct": ".py"},
+        {"question": "How do you take user input in Python?", "answers": ["input()", "raw_input()", "read()", "scan()"], "correct": "input()"},
+        {"question": "Which function converts a string to an integer?", "answers": ["int()", "str()", "eval()", "float()"], "correct": "int()"},
+        {"question": "What function is used to display output in Python?", "answers": ["print()", "display()", "output()", "show()"], "correct": "print()"},
+        {"question": "What is the correct way to create a variable in Python?", "answers": ["x = 5", "int x = 5", "var x = 5", "x := 5"], "correct": "x = 5"},
+        {"question": "Which data type is immutable in Python?", "answers": ["tuple", "list", "dict", "set"], "correct": "tuple"},
+        {"question": "How do you start a single-line comment in Python?", "answers": ["#", "//", "/*", "--"], "correct": "#"},
+        {"question": "Which of these is NOT a valid Python data type?", "answers": ["char", "int", "float", "bool"], "correct": "char"},
+        {"question": "What does the len() function return?", "answers": ["The length of an object", "The last element", "A new copy", "The type of object"], "correct": "The length of an object"}
     ],
 
-    "Control Structures": [
-        {"question": "What?", "answers": ["A", "B", "C", "not this"], "correct": "A"},
-        {"question": "What is?", "answers": ["A", "B", "C", "D"], "correct": "B"},
-        {"question": "Which?", "answers": ["+", "-", "*", "/"], "correct": "+"},
-        {"question": "What is an?", "answers": ["A", "B", "C", "D"], "correct": "C"},
-        {"question": "Which is?", "answers": ["A", "B", "C", "D"], "correct": "D"},
-        {"question": "What is a constant?", "answers": ["A", "B", "C", "D"], "correct": "A"},
-        {"question": "How is mutable?", "answers": ["A", "B", "C", "D"], "correct": "B"},
-        {"question": "Where does += do?", "answers": ["A", "B", "C", "D"], "correct": "C"},
-        {"question": "When is a string?", "answers": ["A", "B", "C", "D"], "correct": "D"},
-        {"question": "Why is a boolean?", "answers": ["A", "B", "C", "D"], "correct": "A"}
-    ],
+   "Control Structures": [
+        {"question": "Which keyword is used to create a loop in Python?", "answers": ["for", "repeat", "iterate", "loop"], "correct": "for"},
+        {"question": "What does the break statement do in a loop?", "answers": ["Ends the loop", "Skips the current iteration", "Restarts the loop", "Causes an error"], "correct": "Ends the loop"},
+        {"question": "A while loop runs until:", "answers": ["The condition is False", "The condition is True", "A counter reaches 0", "Forever"], "correct": "The condition is False"},
+        {"question": "Which keyword is used for a conditional statement?", "answers": ["if", "switch", "case", "choose"], "correct": "if"},
+        {"question": "What happens if an if condition is False?", "answers": ["The block is skipped", "Causes an error", "The program restarts", "Executes anyway"], "correct": "The block is skipped"},
+        {"question": "Which of the following operators is used for equality comparison in Python?", "answers": ["==", "=", "==", ">"], "correct": "=="},
+        {"question": "What is the purpose of the elif statement in Python?", "answers": ["To check additional conditions after the initial if statement", "To handle exceptions", "To create a loop", "To define a function"], "correct": "To check additional conditions after the initial if statement"},
+        {"question": "In Python, what is the purpose of the try-except block?", "answers": ["To handle exceptions", "To define a function", "To check multiple conditions", "To create a loop"], "correct": "To handle exceptions"},
+        {"question": "What is the output of: for i in range(2, 8, 2): print(i)", "answers": ["2 4 6", "2 4 6 8", "0 2 4 6", "2 3 4 5 6 7 8"], "correct": "2 4 6"},
+        {"question": "How do you iterate through two lists simultaneously?", "answers": ["for i, j in zip(list1, list2):", "for i in list1 and list2:", "for i in list1, list2:", "for (i, j) in list1, list2:"], "correct": "for i, j in zip(list1, list2):"}
+  ],
 
     "Data Structures": [
-        {"question": "What is a variable?", "answers": ["variable", "nope", "yup", "not this"], "correct": "variable"},
-        {"question": "What is a data type?", "answers": ["A", "B", "C", "D"], "correct": "B"},
-        {"question": "Which operator is used for addition?", "answers": ["+", "-", "*", "/"], "correct": "+"},
-        {"question": "What is an integer?", "answers": ["A", "B", "C", "D"], "correct": "C"},
-        {"question": "Which is a floating-point number?", "answers": ["A", "B", "C", "D"], "correct": "D"},
-        {"question": "What is a constant?", "answers": ["A", "B", "C", "D"], "correct": "A"},
-        {"question": "Which is mutable?", "answers": ["A", "B", "C", "D"], "correct": "B"},
-        {"question": "What does += do?", "answers": ["A", "B", "C", "D"], "correct": "C"},
-        {"question": "What is a string?", "answers": ["A", "B", "C", "D"], "correct": "D"},
-        {"question": "What is a boolean?", "answers": ["A", "B", "C", "D"], "correct": "A"}
+        {"question": "Which of the following is an immutable data structure in Python?", "answers": ["Tuple", "List", "Dictionary", "Set"], "correct": "Tuple"},
+        {"question": "Which data structure stores elements in key-value pairs?", "answers": ["List", "Dictionary", "Set", "Tuple"], "correct": "Dictionary"},
+        {"question": "Which of these data structures automatically removes duplicates?", "answers": ["List", "Dictionary", "Set", "Tuple"], "correct": "Set"},
+        {"question": "How do you reverse a list in place?", "answers": ["reverse(list)", "list[::-1]", " list.reverse()", "list.backward()"], "correct": " list.reverse()"},
+        {"question": "What does the update() method do for dictionaries?", "answers": ["Updates single key", " Refreshes values", "Sorts dictionary",  "Merges another dictionary into current one"], "correct": " Merges another dictionary into current one"},
+        {"question": "What is the result of [1, 2] + [3, 4]?", "answers": ["[1, 2, 3, 4]", "[1, 2, [3, 4]]", "[3, 4, 1, 2]", "Error"], "correct": "[1, 2, 3, 4]"},
+        {"question": "How do you check if an item exists in a list?", "answers": ["exists(item, list)", "if item in list:", "check(item, list)", "list.contains(item)"], "correct": "if item in list:"},
+        {"question": "How can you remove all items from a list my_list?", "answers": ["my_list.delete()", "my_list.remove()", "my_list.clear()", "my_list.pop()"], "correct": "my_list.clear()"},
+        {"question": "Which method sorts a list in place?", "answers": [" sorted()", "list.order()", "sort(list)", " list.sort()"], "correct": " list.sort()"},
+        {"question": "What does list.insert(index, element) do?", "answers": ["Inserts element at specific index", "Replaces element at index", "Appends to end", "Removes element at index"], "correct": "Inserts element at specific index"}
     ],
 
     "Functions & Scope": [
-        {"question": "What?", "answers": ["A", "B", "C", "not this"], "correct": "A"},
-        {"question": "What is?", "answers": ["A", "B", "C", "D"], "correct": "B"},
-        {"question": "Which?", "answers": ["+", "-", "*", "/"], "correct": "+"},
-        {"question": "What is an?", "answers": ["A", "B", "C", "D"], "correct": "C"},
-        {"question": "Which is?", "answers": ["A", "B", "C", "D"], "correct": "D"},
-        {"question": "What is a constant?", "answers": ["A", "B", "C", "D"], "correct": "A"},
-        {"question": "How is mutable?", "answers": ["A", "B", "C", "D"], "correct": "B"},
-        {"question": "Where does += do?", "answers": ["A", "B", "C", "D"], "correct": "C"},
-        {"question": "When is a string?", "answers": ["A", "B", "C", "D"], "correct": "D"},
-        {"question": "Why is a boolean?", "answers": ["A", "B", "C", "D"], "correct": "A"}
+        {"question": "Which keyword is used to define a function in Python?", "answers": ["def", "func", "function", "lambda"], "correct": "def"},
+        {"question": "What is the default return value of a Python function that has no return statement?", "answers": ["0", "None", "False", "Empty String"], "correct": "None"},
+        {"question": "What is a variable declared inside a function called?", "answers": ["Local variable", "Global variable", "Static variable", "Shared variable"], "correct": "Local variable"},
+        {"question": "What keyword is used to refer to a variable outside a function??", "answers": ["nonlocal", "external", "global", "outer"], "correct": "global"},
+        {"question": "What is a lambda function in Python?", "answers": ["A function with multiple arguments", "A function with no return value", "A function that calls itself", "An anonymous one-line function"], "correct": "An anonymous one-line function"},
+        {"question": "Which statement about variable scope is correct?", "answers": ["Variables inside a function exist only while the function runs", "Scope rules are not enforced in Python", "Local variables can be used outside the function", "Global variables cannot be modified inside a function without global"], "correct": "Variables inside a function exist only while the function runs"},
+        {"question": "What is the difference between parameters and arguments?", "answers": ["No difference", "Parameters are in definition, arguments are values passed", "Parameters are optional, arguments are required", "Arguments are in definition, parameters are values passed"], "correct": "Parameters are in definition, arguments are values passed"},
+        {"question": "What is a higher-order function?", "answers": ["Function with many parameters", " Function defined at top of file", "Function that takes/returns other functions", "Complex mathematical function"], "correct": "Function that takes/returns other functions"},
+        {"question": "What is the purpose of the return statement in a function?", "answers": ["To stop a loop", "To end the program", "To print output", "To send a value back to the caller"], "correct": "To send a value back to the caller"},
+        {"question": "What is the correct way to pass multiple arguments to a function?", "answers": ["def func(*args):", "def func(args*):", "def func(args[]):", "def func{*args}:"], "correct": "def func(*args):"}
     ],
 
     "OOP": [
-        {"question": "What is a variable?", "answers": ["variable", "nope", "yup", "not this"], "correct": "variable"},
-        {"question": "What is a data type?", "answers": ["A", "B", "C", "D"], "correct": "B"},
-        {"question": "Which operator is used for addition?", "answers": ["+", "-", "*", "/"], "correct": "+"},
-        {"question": "What is an integer?", "answers": ["A", "B", "C", "D"], "correct": "C"},
-        {"question": "Which is a floating-point number?", "answers": ["A", "B", "C", "D"], "correct": "D"},
-        {"question": "What is a constant?", "answers": ["A", "B", "C", "D"], "correct": "A"},
-        {"question": "Which is mutable?", "answers": ["A", "B", "C", "D"], "correct": "B"},
-        {"question": "What does += do?", "answers": ["A", "B", "C", "D"], "correct": "C"},
-        {"question": "What is a string?", "answers": ["A", "B", "C", "D"], "correct": "D"},
-        {"question": "What is a boolean?", "answers": ["A", "B", "C", "D"], "correct": "A"}
+        {"question": "What does OOP stand for?", "answers": ["Object-Oriented Programming", "Objective Operation Process", "Ordered Object Principles", "Object Oriented Procedure"], "correct": "Object-Oriented Programming"},
+        {"question": "Which keyword is used to define a class in Python?", "answers": ["def", "class", "function", "object"], "correct": "class"},
+        {"question": "Which function is automatically called when an object is created?", "answers": ["__init__()", "__object__()", "__main__()", "__start__()"], "correct": "__init__()"},
+        {"question": "What is self in a class method?", "answers": ["A keyword to call methods", "Refers to another class", "Refers to the instance of the class", "Refers to the class itself"], "correct": "Refers to the instance of the class"},
+        {"question": "What is the process of creating a new class from an existing one called?", "answers": ["Polymorphism", "Encapsulation", "Abstraction", "Inheritance"], "correct": "Inheritance"},
+        {"question": "Which concept means \"hiding the internal details and showing only necessary features\"?", "answers": ["Abstraction", "Encapsulation", "Polymorphism", "Inheritance"], "correct": "Abstraction"},
+        {"question": "What is method overriding?", "answers": ["Using super() inside a method", "Redefining a method of a parent class in a child class", "Writing two classes with the same name", "Writing multiple methods with the same name in the same class"], "correct": "Redefining a method of a parent class in a child class"},
+        {"question": "Which keyword is used to call a method from the parent class?", "answers": ["parent()", "inherit()", "super()", "base()"], "correct": "super()"},
+        {"question": "Which of the following best describes a class in Python?", "answers": ["A function with attributes", "A block of reusable code", "A single instance of data", "A blueprint for creating objects"], "correct": "A blueprint for creating objects"},
+        {"question": "Which of the following creates a private variable in a class?", "answers": ["self.__name", "private self.name", "self._name", "self.name"], "correct": "self.__name"}
     ],
 
-    "Error & Exception Handeling": [
-        {"question": "What?", "answers": ["A", "B", "C", "not this"], "correct": "A"},
-        {"question": "What is?", "answers": ["A", "B", "C", "D"], "correct": "B"},
-        {"question": "Which?", "answers": ["+", "-", "*", "/"], "correct": "+"},
-        {"question": "What is an?", "answers": ["A", "B", "C", "D"], "correct": "C"},
-        {"question": "Which is?", "answers": ["A", "B", "C", "D"], "correct": "D"},
-        {"question": "What is a constant?", "answers": ["A", "B", "C", "D"], "correct": "A"},
-        {"question": "How is mutable?", "answers": ["A", "B", "C", "D"], "correct": "B"},
-        {"question": "Where does += do?", "answers": ["A", "B", "C", "D"], "correct": "C"},
-        {"question": "When is a string?", "answers": ["A", "B", "C", "D"], "correct": "D"},
-        {"question": "Why is a boolean?", "answers": ["A", "B", "C", "D"], "correct": "A"}
+    "Error & Exception Handling": [
+        {"question": "Which keyword is used to handle exceptions in Python?", "answers": ["try", "catch", "error", "except"], "correct": "try"},
+        {"question": "Which keyword is used to execute code if no exception occurs?", "answers": ["finally", "else", "try", "catch"], "correct": "else"},
+        {"question": "Which block is always executed, whether an exception occurs or not?", "answers": ["finally", "try", "catch", "else"], "correct": "finally"},
+        {"question": "What type of error will this code raise? print(10 / 0)", "answers": ["ValueError", "IndexError", "ZeroDivisionError", "TypeError"], "correct": "ZeroDivisionError"},
+        {"question": "Which of the following is the base class for all exceptions in Python?", "answers": ["BaseException", "RuntimeError", "Error", "Exception"], "correct": "Exception"},
+        {"question": "Which exception is raised when a variable is not defined?", "answers": ["NameError", "TypeError", "ValueError", "IndexError"], "correct": "NameError"},
+        {"question": "What is the purpose of the finally block?", "answers": ["To catch exceptions", "To run code regardless of exceptions", "To ignore exceptions", "To define custom exceptions"], "correct": "To run code regardless of exceptions"},
+        {"question": "Which exception is raised by trying to access an index that is out of range in a list?", "answers": ["ValueError", "KeyError", "IndexError", "TypeError"], "correct": "IndexError"},
+        {"question": "How can you handle multiple exceptions in a single block?", "answers": ["except [TypeError, ValueError]:", "except TypeError | ValueError:", "except TypeError, ValueError:", "except (TypeError, ValueError):"], "correct": "except (TypeError, ValueError):"},
+        {"question": "Which of these is NOT an exception in Python?", "answers": ["To handle errors gracefully", "To improve runtime speed", "To define new functions", "To stop the program permanently"], "correct": "To handle errors gracefully"}
     ],
 
     "File Handling": [
-        {"question": "What is a variable?", "answers": ["variable", "nope", "yup", "not this"], "correct": "variable"},
-        {"question": "What is a data type?", "answers": ["A", "B", "C", "D"], "correct": "B"},
-        {"question": "Which operator is used for addition?", "answers": ["+", "-", "*", "/"], "correct": "+"},
-        {"question": "What is an integer?", "answers": ["A", "B", "C", "D"], "correct": "C"},
-        {"question": "Which is a floating-point number?", "answers": ["A", "B", "C", "D"], "correct": "D"},
-        {"question": "What is a constant?", "answers": ["A", "B", "C", "D"], "correct": "A"},
-        {"question": "Which is mutable?", "answers": ["A", "B", "C", "D"], "correct": "B"},
-        {"question": "What does += do?", "answers": ["A", "B", "C", "D"], "correct": "C"},
-        {"question": "What is a string?", "answers": ["A", "B", "C", "D"], "correct": "D"},
-        {"question": "What is a boolean?", "answers": ["A", "B", "C", "D"], "correct": "A"}
+        {"question": "Which mode is used to open a file for reading only?", "answers": ["r", "w", "a", "x"], "correct": "r"},
+        {"question": "Which mode opens a file for writing and overwrites existing content?", "answers": ["r", "w", "a", "r+"], "correct": "w"},
+        {"question": "Which method is used to close a file in Python?", "answers": ["file.close()", "file.quit()", "file.stop()", "file.end()"], "correct": "file.close()"},
+        {"question": "Which mode opens a file for appending data at the end?", "answers": ["r", "w", "a", "x"], "correct": "a"},
+        {"question": "Which method reads one line at a time from a file?", "answers": ["readlines()", "read()", "line()", "readline()"], ",correct": "readline()"},
+        {"question": "What is the purpose of the with statement when working with files?", "answers": ["To automatically close the file", "To open multiple files", "To read binary data", "To write faster"], "correct": "To automatically close the file"},
+        {"question": "What does truncate() method do?", "answers": ["Closes file", "Resizes file to specified size", "Deletes file", "Reads file"], "correct": "Resizes file to specified size"},
+        {"question": "Which method moves the file pointer to a specific position?", "answers": ["tell()", "read()", "seek()", "move()"], "correct": "seek()"},
+        {"question": "Which method returns the current position of the file pointer?", "answers": ["seek()", "position()", "cursor()", "tell()"], "correct": "tell()"},
+        {"question": "Which exception is raised if you try to open a file that doesn’t exist in read mode?", "answers": ["FileNotFoundError", "NameError", "FileError", "IOError"], "correct": "FileNotFoundError"}
     ],
 
     "Advanced Topics": [
-        {"question": "What?", "answers": ["A", "B", "C", "not this"], "correct": "variable"},
-        {"question": "What is?", "answers": ["A", "B", "C", "D"], "correct": "B"},
-        {"question": "Which?", "answers": ["+", "-", "*", "/"], "correct": "+"},
-        {"question": "What is an?", "answers": ["A", "B", "C", "D"], "correct": "C"},
-        {"question": "Which is?", "answers": ["A", "B", "C", "D"], "correct": "D"},
-        {"question": "What is a constant?", "answers": ["A", "B", "C", "D"], "correct": "A"},
-        {"question": "How is mutable?", "answers": ["A", "B", "C", "D"], "correct": "B"},
-        {"question": "Where does += do?", "answers": ["A", "B", "C", "D"], "correct": "C"},
-        {"question": "When is a string?", "answers": ["A", "B", "C", "D"], "correct": "D"},
-        {"question": "Why is a boolean?", "answers": ["A", "B", "C", "D"], "correct": "A"}
+        {"question": "Which of the following is used to create a generator in Python?", "answers": ["yield", "return", "generate", "produce"], "correct": "yield"},
+        {"question": "Which of these modules is used for regular expressions in Python?", "answers": ["regex", "re", "expression", "pyregex"], "correct": "re"},
+        {"question": "What is the difference between deep copy and shallow copy?", "answers": ["Deep copy copies nested objects, shallow copy only references", "Deep copy is faster", "Shallow copy is safer", "No difference"], "correct": "Deep copy copies nested objects, shallow copy only references"},
+        {"question": "What is a metaclass in Python?", "answers": ["Meta information", "Parent class", "Class of a class (class factory)", "Abstract class"], "correct": "Class of a class (class factory)"},
+        {"question": "What is a namespace in Python?", "answers": ["Import statement", "Variable name", "Class name", "Mapping from names to objects"], "correct": "Mapping from names to objects"},
+        {"question": "What does the setdefault() method of a dictionary do?", "answers": ["Returns the value of a key if it exists, otherwise inserts the key with a default value", "Updates a key", "Raises KeyError", "Deletes a key"], "correct": "Returns the value of a key if it exists, otherwise inserts the key with a default value"},
+        {"question": "What is the purpose of functools.reduce()?", "answers": ["Sorts a list", "Applies a function cumulatively to items of an iterable", "Maps values in a list", "Filters elements from a list"], "correct": "Applies a function cumulatively to items of an iterable"},
+        {"question": "Which module provides tools for advanced iteration like cycle, permutations, and combinations?", "answers": ["collections", "functools", "itertools", ",operator"], "correct": "itertools"},
+        {"question": "What is true about Python coroutines?", "answers": ["They block the program until completion", "They cannot receive values", "They are the same as generators", "They are functions that can pause and resume execution"], "correct": "They are functions that can pause and resume execution"},
+        {"question": "Which of these statements about Python’s namedtuple is True?", "answers": ["It creates tuple subclasses with named fields", "It is a mutable data structure", "It cannot be indexed", "It replaces dictionaries"], "correct": "It creates tuple subclasses with named fields"}
     ]
 }
