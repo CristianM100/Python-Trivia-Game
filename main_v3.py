@@ -3,7 +3,7 @@ import sys
 
 from PyQt6.QtWidgets import QApplication, QWidget, QPushButton
 #from pages import frame1, grid
-from frames import frame1, grid
+from frames_v2 import frame1, grid
 
 # You need one (and only one) QApplication instance per application.
 # Pass in sys.argv to allow command line arguments for your app.
