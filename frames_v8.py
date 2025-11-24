@@ -2,7 +2,7 @@ from PyQt6.QtWidgets import QGridLayout, QLabel, QPushButton, QSizePolicy,QWidge
 from PyQt6.QtGui import QPixmap, QCursor
 from PyQt6 import QtCore, QtWidgets
 from PyQt6.QtCore import QTimer
-from clickableGear_v3 import ClickableWidget
+from clickableGear_v5 import ClickableWidget
 import json, os
 import pandas as pd
 
@@ -888,4 +888,5 @@ progress = load_progress()
 
 if "topic_scores" not in progress:
     progress["topic_scores"] = {}
+
 
