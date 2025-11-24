@@ -1,6 +1,6 @@
 import sys
 from PyQt6.QtWidgets import QApplication, QWidget
-from frames_v5 import frame1, grid
+from frames_v7 import frame1, grid
 
 app = QApplication(sys.argv)
 
