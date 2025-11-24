@@ -43,7 +43,7 @@ class ClickableWidget(QWidget):
             (416, 508), 
             (417, 577), 
             (574, 645), 
-            (635, 680) 
+            (650, 690) 
         ]
         
         for i, (x, y) in enumerate(positions):
@@ -240,3 +240,4 @@ class ClickableWidget(QWidget):
         
         if needs_update:
             self.update()  # Trigger repaint
+
