@@ -1,25 +1,38 @@
-# Only needed for access to command line arguments
 import sys
+from PyQt6.QtWidgets import QApplication, QWidget, QScrollArea, QVBoxLayout
+from frames.frame1 import frame1
+from helperfunctions import grid
 
-from PyQt6.QtWidgets import QApplication, QWidget
-from pages import frame1, grid
-# You need one (and only one) QApplication instance per application.
-# Pass in sys.argv to allow command line arguments for your app.
-# If you know you won't use command line arguments QApplication([]) works too.
 app = QApplication(sys.argv)
 
-# Create a Qt widget, which will be our window.
-window = QWidget()
+# Get screen information
+screen = app.primaryScreen()
+screen_rect = screen.availableGeometry()
 
+# set window size
+w = int(screen_rect.width() * 0.8)
+h = int(screen_rect.height() * 1)
+
+# Main window
+window = QWidget()
 window.setWindowTitle("Python Trivia Game")
-#window.setFixedWidth(1000)
-#window.setFixedHeight(1000)
+window.resize(w, h)
 window.setStyleSheet("background: #397591")
 
-frame1()
+frame1()  
 
-window.setLayout(grid)
-window.show()  # IMPORTANT!!!!! Windows are hidden by default.
+# the grid layout in a scrollable widget 
+content_widget = QWidget()     # holds your layout
+content_widget.setLayout(grid)
 
-# Start the event loop.
+scroll = QScrollArea()
+scroll.setWidgetResizable(True)  
+scroll.setWidget(content_widget)
+
+# scroll area into the main window 
+main_layout = QVBoxLayout()
+main_layout.addWidget(scroll)
+window.setLayout(main_layout)
+
+window.show()
 app.exec()

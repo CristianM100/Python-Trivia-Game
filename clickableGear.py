@@ -1,6 +1,9 @@
 import sys
 import math
-
+from PyQt6.QtWidgets import QGridLayout, QLabel, QPushButton, QSizePolicy
+from PyQt6.QtGui import QPixmap, QCursor
+from PyQt6 import QtCore
+from PyQt6.QtCore import QTimer
 from PyQt6.QtWidgets import QWidget
 from PyQt6.QtCore import Qt, QRect, QPointF, pyqtSignal
 from PyQt6.QtGui import QPainter, QColor, QPen, QFont, QPainterPath
@@ -8,8 +11,10 @@ from PyQt6.QtGui import QPainter, QColor, QPen, QFont, QPainterPath
 class ClickableWidget(QWidget):
     clicked = pyqtSignal(int)  # signal to emit widget ID when clicked
     
+    
     def __init__(self, parent=None):
         super().__init__(parent)
+        
         self.setWindowTitle("Questions in Topic Name")
         self.setMinimumSize(700,750)
         
@@ -27,10 +32,11 @@ class ClickableWidget(QWidget):
         self.gear_states=["unanswered"]*10
         
         # positions for gears (adjusted for your window size)
+        
         positions = [
             (74, 103), 
             (75, 164), 
-            (191, 232), 
+            (185, 232), 
             (177, 302), 
             (309, 370),
             (301, 439), 
@@ -39,7 +45,7 @@ class ClickableWidget(QWidget):
             (574, 645), 
             (624, 705) 
         ]
-          
+        
         for i, (x, y) in enumerate(positions):
             self.widgets.append({
                 'center': QPointF(x, y),
@@ -65,7 +71,7 @@ class ClickableWidget(QWidget):
 
     def mark_gear_state(self, gear_id, state):
         widget = self.widgets[gear_id]
-        widget["staet"]=state
+        widget["state"]=state
         if state == "correct":
             widget["color"] = QColor("#efbc50")
             widget["enabled"] = False
